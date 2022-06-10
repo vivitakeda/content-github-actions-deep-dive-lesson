@@ -71,4 +71,4 @@ jobs:
          upload_url: ${{ steps.create_release.outputs.upload_url }}
          asset_path: ./${{ github.sha }}.zip
          asset_name: source_code_with_libraries.zip
-        asset_content_type: application/zip
+         asset_content_type: application/zip
